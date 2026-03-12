@@ -1,0 +1,18 @@
+.detail_region_little {
+    color: #present;
+    background: linear-gradient(to right, present, present);
+    padding: 10px;
+    border: 1px solid #present;
+    animation: detail_region_little 2s ease-in-out infinite;
+}
+
+@keyframes detail_region_little {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

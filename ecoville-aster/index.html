@@ -1,0 +1,327 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <title>Achalare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="style.css?ver=1.2.1623" rel="stylesheet">
+	<link href="css/media.css?ver=1.2.1623" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/helvetica-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/libs/modernizr-2.5.3.min.js"></script>
+    <script src="form.js?ver=3.98.13"></script>
+    <script>
+        $(document).ready(function() {
+        
+            // process the form
+             $('#enqsubmit_form').submit(function(event) {
+              
+                console.log(2232);
+                 $.ajax({
+    
+                   url: 'submit.php',
+                   type: 'POST',
+                   dataType: "json",
+                   data: 
+                   {
+                      type: "add" 
+                   },
+                   success: data => {console.log(data);}
+                
+                });
+                  event.preventDefault();
+            });
+        
+        });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+		<div class="d-grid onerow header-row">
+			<div class="header">
+				<div class="d-table h-100">
+					<div class="d-table-cell align-middle">
+						<img src="headertext.png" class="w-100 rounded-0">
+					</div>
+				</div>
+			</div>
+			<div class="namebord">
+				<img src="logo.png" alt="" class="mb-4 img-fluid w-100">
+				<a class="button button-purple w-100" href="#enqsubmit_form">ENQUIRE NOW</a>
+			</div>
+		</div>
+	</div>
+	<div class="projectimg">
+		<img src="project.png" class="w-100">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-6 tworow mt-5 mb-5">
+				<h1>Where future meets nature!</h1>
+			</div>
+		</div>
+	</div>
+	<div class="aboutus">
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-6 col-md-12 abtimg">
+					<img src="about.png" alt="" class="img-fluid"> 
+				</div>
+				<div class="col-lg-6 col-md-12 abttext">
+					<p>Ever wanted to own the countryside while living in the city? Welcome to Ecoville Aster by Achalare welworth associates at Ghotawade Gaon, Pirangut, where you enjoy great access to Kothrud and Hinjawadi on one side and Mulshi and Lavasa on the other. Own a NA Villa Plot here to enjoy a peaceful living experience, close to workplaces.</p>
+					
+					<div class="highlights">
+						<h3>Highlights :</h3>
+						<ul>
+							<li>A community of 45 exclusive plots</li>
+							<li>Plot size from 1560-3670 sq. ft.</li>
+							<li>Dedicated amenities and features</li>
+							<li>Excellent connectivity with Hinjawadi & Mulshi</li>
+						</ul>
+
+
+
+					<a class="button-small button-green mt-4" target="_blank" href="images/Ecoville-Aster-EBrochure.pdf">Know More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-12 col-md-12 text-center pt-3">
+				<button class="button-small button-purple mb-4 mt-4 button-disabled">Destination Ghotawade</button>
+			</div>
+			<div class="col-lg-1 col-md-1">
+			</div>
+			<div class="col-lg-10 col-md-10">
+							
+				<p class="text-center">While reaching Mulshi and Lavasa is a cakewalk from Ecoville Aster, the best of city is close by with
+Chandani Chowk just 25 minutes away and Hinjawadi just 10 minutes away.
+</p>
+				<div class="locationmap">
+					<img src="map.png" alt="" class="img-fluid"> 
+				</div>
+				<div class="locationmapbtn">
+					<div class="button-round button-purple">Location <br> map</div>
+				</div>
+				
+				
+			</div>
+		<div class="col-lg-12 col-md-12 mt-5">
+			<p class="klm">Key Distances : Ghotawade Phata - 5 Km | Hinjawadi Phase III - 6 Km | Hinjawadi Phase II - 10 Km | Chandani Chowk - 15 Km </p>
+		</div>
+		</div>
+	</div>	
+ <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-1 col-1"></div>
+  <div class="col-md-11 col-11">        
+      <div class="galleryWrap">
+  <div class="gallerySliderWrap">
+    <div class="slider gallerySlider">
+
+      <div>
+        <div class="galleryBox"> <img src="images/1.jpg"> </div>
+      </div>
+      <div>
+        <div class="galleryBox"> <img src="images/2.jpg"> </div>
+      </div>
+	  <div>
+        <div class="galleryBox"> <img src="images/3.jpg"> </div>
+      </div>
+	  <div>
+        <div class="galleryBox"> <img src="images/4.jpg"> </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  </div>
+  <div class="clear"></div>
+</div> 
+<div class="clear"></div>
+</div>
+</div>
+	<style>
+	    /* Slick Slider
+========================================================================*/
+.galleryWrap .slick-prev.slick-arrow {
+    background: url(images/left-arrow.png) no-repeat;
+    left: 10px;
+}
+.galleryWrap .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 73px;
+    height: 59px;
+    border: none;
+    z-index: 9;
+    overflow: hidden;
+    text-indent: -1000px;
+    margin-top: -40px;
+}
+.galleryWrap .slick-next.slick-arrow {
+    background: url(images/right-arrow.png) no-repeat;
+    right: 10%;
+}
+.galleryWrap .slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 73px;
+    height: 59px;
+    border: none;
+    z-index: 9;
+    overflow: hidden;
+    text-indent: -1000px;
+    margin-top: -40px;
+}
+.slick-slider{position:relative; display:block; -moz-box-sizing:border-box;  box-sizing:border-box; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; 	user-select:none; -webkit-touch-callout:none; -khtml-user-select:none; -ms-touch-action:pan-y; touch-action:pan-y; -webkit-tap-highlight-color:transparent;}
+.slick-list{position:relative; display:block; overflow:hidden; margin:0; padding:0;}
+.slick-list:focus{outline:none;}
+.slick-list.dragging{cursor:pointer; cursor:hand;}
+.slick-slider .slick-track, .slick-slider .slick-list{-webkit-transform:translate3d(0, 0, 0); -moz-transform:translate3d(0, 0, 0); -ms-transform:translate3d(0, 0, 0);  -o-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0);}
+.slick-track{position:relative; top:0; left:0; display:block;}
+.slick-track:before, .slick-track:after{display:table; content:'';}
+.slick-track:after{clear:both;}
+.slick-loading .slick-track{visibility:hidden;}
+.slick-slide{display:none; float:left; height:100%; min-height:1px;}
+[dir='rtl'] .slick-slide{float:right;}
+.slick-slide img{display:block;}
+.slick-slide.slick-loading img{display:none;}
+.slick-slide.dragging img{pointer-events:none;}
+.slick-initialized .slick-slide{display:block;}
+.slick-loading .slick-slide{visibility:hidden;}
+.slick-vertical .slick-slide{display:block; height:auto; border:1px solid transparent;}
+.slick-arrow.slick-hidden {display:none;}
+.slick-slide img{
+            width: 98%;
+}
+@media(max-width:768px){
+  .slick-slide img{
+        width: -webkit-fill-available;
+            margin-right: 15px;
+}
+}
+	</style>
+	<div class="aboutus mt-4">
+		<div class="container">
+    	    <form method="POST" action="thank-you.php" id="enqsubmit_form">		    
+    			<div class="row ">
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" required="" name="firstName" placeholder="Name*">
+    				</div>
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" required="" name="phoneNo" placeholder="Phone*">
+    				</div>
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" required="" name="emailId" placeholder="Email*">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" name="location" placeholder="Location*">
+    				</div>
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" required="" name="projectName" placeholder="Project*">
+    				</div>
+    				<div class="col-lg-4 col-md-12">
+    					<input type="text" class="form-contorl" required="" name="comments" placeholder="Message*">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-lg-12 col-md-12 text-center">
+    					<button class="button-contact button-purple" tpe="submit" id="enq_submit">ENQUIRE NOW</button>
+    				</div>
+    			</div>
+        	</form>
+		</div>
+	</div>	
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer-row">
+				<div class="col-lg-4 col-md-12">
+					<div class="d-flax">
+						<div class="row ">
+							<div class="col-6 ftlogo text-right">
+								<img src="ftlogo1.png" alt="" class="img-fluid"> 
+							</div>
+							<div class="col-6 ftlogo">
+								<img src="ftlogo2.png" alt="" class="img-fluid"> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<h6>SITE ADDRESS</h6>
+					<p>
+						Gat No. 1276, 1277, 1282, Revenue<br>
+						Village-Ghotawade, Ghotawade Gaon, Mulshi<br> (Taluka), Pune 412115
+						</p>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<h6>HEAD OFFICE</h6>
+					<p>
+						4th Floor, Achalare House, S.No. 1/2/1, 2/2,<br>
+						2/3, Main Baner Road, Baner, Pune, Maharashtra 411045.<br>
+						Email: sales@achalare.com I www.achalare.com
+						</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-12">
+						<p> <img src="images/rera-log.png">  MAHARERA REG No: P52100033587 | <a target="_blank" href="https://maharera.mahaonline.gov.in">https://maharera.mahaonline.gov.in</a></p>
+					</div>
+					<div class="col-lg-5 col-md-12 contact-section text-right">
+						<h4>Call:  <a href="callto:8888401110">88884 01110</a>,  <a href="callto:9922892000">99228 92000</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+		
+		
+		
+	<script type="text/javascript" src="js/slick.min.js"></script>
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.gallerySlider').slick({
+	  speed: 300,
+	  slidesToShow: 1.45,
+	  slidesToScroll: 1,
+	  infinite: false, 
+	  responsive: [
+		{
+		  breakpoint: 640,
+		  settings: {
+			slidesToShow: 1.1, 
+		  }
+		}, 
+	  ]
+	});
+});
+</script>	
+		
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <!--  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body></html>

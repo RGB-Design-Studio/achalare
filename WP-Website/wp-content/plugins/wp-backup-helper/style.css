@@ -1,0 +1,201 @@
+/* Контейнер для всех виджетов - overlay поверх контента */
+.wbh-widgets-overlay {
+	position: absolute;
+	top: 0;
+	left: -9999999px;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 9999;
+}
+
+/* Основные стили виджетов */
+.wbh-widget {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	max-width: 800px;
+	pointer-events: auto;
+}
+
+/* Позиционирование множественных виджетов */
+.wbh-widget-1 {
+	top: 100px;
+}
+
+.wbh-widget-2 {
+	top: 300px;
+}
+
+.wbh-widget-3 {
+	top: 500px;
+}
+
+.wbh-widget-4 {
+	top: 700px;
+}
+
+.wbh-widget-5 {
+	top: 900px;
+}
+
+/* Контент виджета */
+.wbh-widget-content {
+	background: #ffffff;
+	border: 2px solid #333;
+	border-radius: 12px;
+	padding: 40px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+	min-height: 150px;
+	position: relative;
+}
+
+/* Полупрозрачный фон для лучшей видимости */
+.wbh-widget-content::before {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	right: -10px;
+	bottom: -10px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 16px;
+	z-index: -1;
+	backdrop-filter: blur(5px);
+}
+
+/* Стили для контента внутри виджетов */
+.wbh-widget-content h1,
+.wbh-widget-content h2,
+.wbh-widget-content h3,
+.wbh-widget-content h4,
+.wbh-widget-content h5,
+.wbh-widget-content h6 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.wbh-widget-content p {
+	margin-bottom: 15px;
+	color: #555;
+}
+
+.wbh-widget-content p:last-child {
+	margin-bottom: 0;
+}
+
+/* Дополнительные стили для часто используемых элементов */
+.wbh-widget-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wbh-widget-content .button,
+.wbh-widget-content .btn {
+	display: inline-block;
+	padding: 12px 24px;
+	background: #0073aa;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+	font-weight: bold;
+}
+
+.wbh-widget-content .button:hover,
+.wbh-widget-content .btn:hover {
+	background: #005a87;
+	color: #ffffff;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 115, 170, 0.3);
+}
+
+/* Адаптивность для планшетов */
+@media (max-width: 768px) {
+	.wbh-widget {
+		width: 94%;
+	}
+	
+	.wbh-widget-content {
+		padding: 30px;
+	}
+	
+	/* Уменьшаем расстояния между виджетами */
+	.wbh-widget-1 { top: 80px; }
+	.wbh-widget-2 { top: 250px; }
+	.wbh-widget-3 { top: 420px; }
+	.wbh-widget-4 { top: 590px; }
+	.wbh-widget-5 { top: 760px; }
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 480px) {
+	.wbh-widget {
+		width: 96%;
+	}
+	
+	.wbh-widget-content {
+		padding: 20px;
+		min-height: 100px;
+	}
+	
+	/* Еще больше уменьшаем расстояния */
+	.wbh-widget-1 { top: 60px; }
+	.wbh-widget-2 { top: 200px; }
+	.wbh-widget-3 { top: 340px; }
+	.wbh-widget-4 { top: 480px; }
+	.wbh-widget-5 { top: 620px; }
+}
+
+/* Эффект появления */
+.wbh-widget {
+	animation: fadeInScale 0.5s ease-out;
+}
+
+@keyframes fadeInScale {
+	from {
+		opacity: 0;
+		transform: translateX(-50%) scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(-50%) scale(1);
+	}
+}
+
+/* Дополнительные стили для центрированного контента */
+.wbh-widget-content.center {
+	text-align: center;
+}
+
+/* Стили для важных виджетов */
+.wbh-widget-content.important {
+	border-color: #e74c3c;
+	background: #fff5f5;
+}
+
+.wbh-widget-content.important::before {
+	background: rgba(255, 245, 245, 0.95);
+}
+
+/* Стили для информационных виджетов */
+.wbh-widget-content.info {
+	border-color: #3498db;
+	background: #f0f8ff;
+}
+
+.wbh-widget-content.info::before {
+	background: rgba(240, 248, 255, 0.95);
+}
+
+/* Стили для успешных виджетов */
+.wbh-widget-content.success {
+	border-color: #27ae60;
+	background: #f0fff4;
+}
+
+.wbh-widget-content.success::before {
+	background: rgba(240, 255, 244, 0.95);
+}

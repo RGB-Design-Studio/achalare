@@ -1,0 +1,20 @@
+/*
+Theme Name: Biocuration Application
+Theme URI: http://wordpress.org/
+Description: Official WordPress theme
+Author: the WordPress team
+Version: 2.7.6
+Author URI: http://wordpress.org/
+License: GPL2
+*/
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}

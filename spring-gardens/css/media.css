@@ -1,0 +1,197 @@
+
+ @media only screen and (min-width: 1920px) {
+}
+ @media only screen and (min-width: 1600px) {
+}
+@media only screen and (min-width: 1536px) {
+}
+ @media only screen and (min-width: 1400px) {
+}
+
+ @media only screen and (max-width: 1280px) {
+ .pointsWrap:after { width: 347px; background-size: 100% auto;}
+ .pointsWrap:before { width: 327px; background-size: 100% auto;}
+ .pointsWrap { padding: 70px 0 80px 0;}
+ .recognitionWrap .recognitionBox .recognitionBoxinner { min-height: 350px;}
+ .connectedWrap .connectedRight table tr td { padding: 6px 5px;}
+}
+ @media only screen and (max-width: 1200px) {
+ .bannerWrap .formWrap .formInner { padding: 30px 30px;}
+ .inputBox { margin-bottom: 20px;}
+ .aboutWrap .aboutInner { width: auto;}
+ h2 { font-size: 40px; line-height: 44px;}
+ .greatInvestmentWrap .greatInvestmentInner {  padding: 40px;}
+ .connectedWrap .connectedRight h2{ margin-bottom:20px;}
+ .pointsWrap .pointsInner{ padding:50px 0;}
+ .pointsWrap .pointsList ul li { font-size: 17px; line-height: 20px;}
+ .pointsWrap:before { width: 247px; }
+ .pointsWrap:after{ width:230px;}
+ .fsiWrap .fsiInner{ margin:0 0 0 2%;}
+ .aboutachlareWrap .aboutachlareInner { width: 90%;}
+ .recognitionWrap .recognitionBox .recognitionBoxinner { padding: 20px 20px 60px 20px ;}
+ .thankMsg{ padding-top:100px;}
+.thankMsg p{ margin-top:20px;}
+.bankWrap .bankInner{ text-align:center;}
+.bankWrap .bankInner h3{ float:none; margin-bottom:30px;}
+.bankWrap .bankInner ul li{ float:none; display:inline-block;}
+.connectedWrap .connectedRight .map iframe{ width:100%; height:150px;}
+.connectedWrap .connectedRight .connectedTable table tr td { padding: 2px 0; line-height: 14px;}
+}
+ @media only screen and (max-width: 1024px) {
+}
+ @media only screen and (max-width: 959px) {
+.bannerWrap { grid-template-columns: 100%;}
+.bannerWrap .formWrap { background-size: 100% auto;}
+.bannerWrap .formWrap .formInner { padding: 60px;}
+.inputBox { margin-bottom: 30px;}
+.aboutWrap .aboutInner .aboutLeft { width: auto; float: none; margin-bottom: 40px;}
+.aboutWrap .aboutInner .aboutRight { width: auto; float: none; margin-left: 0;}
+.greatInvestmentWrap .greatInvestmentLeft { width: auto;  float: none;}
+.greatInvestmentWrap .greatInvestmentRight { width: 60%; float: none; margin-left: 0;}
+.greatInvestmentWrap .greatInvestmentInner:after { left: auto; right: 0;}
+.greatInvestmentWrap .greatInvestmentLeft h2 br{ display:none;}
+.connectedWrap .connectedInner { grid-template-columns: 100%;}
+.pointsWrap::before, .pointsWrap::after{ display:none;}
+.pointsWrap .pointsLeft { margin: 0;}
+.pointsWrap .pointsRight { margin: 0;}
+.pointsWrap .pointsList { width: 48%; float: left;}
+.pointsWrap .pointsInner { padding: 50px 50px; width: auto;}
+.pointsWrap .pointsList ul li{ margin-bottom:20px;}
+.fsiWrap:after{ display:none;}
+.fsiWrap .fsiInner { margin: 0; width:auto;}
+.aboutachlareWrap .aboutachlareInner {  width: auto;}
+.recognitionWrap .slick-prev.slick-arrow { left: -43px; background-size: 100% 100%;}
+.recognitionWrap .slick-next.slick-arrow { right: -43px; background-size: 100% 100%;}
+footer .bottomWrap .bottomBox { width: auto; margin: 0 1% 40px 1%; float: none; text-align: center;}
+footer .bottomWrap{ padding-bottom:0;}
+.footerWrap .footerBox { width: auto; margin: 0 1% 30px 1%; float: none; text-align: center;}
+.footerWrap .footerBox label{ margin:0; display:block;} 
+.footerWrap .footerBox.copyRight{ line-height:20px;}
+.footerWrap .footerBox.copyRight br{ display:inline;}
+.footerWrap .footerBox a{display:block; background:#1d361b; color:#ffffff; font-size:16px; border:none;-webkit-box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.1);
+-moz-box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.1); box-shadow: 0px 0px 8px 0px rgba(255,255,255,0.1);}
+.footerWrap .footerBox a.contactNum { margin-left: 0;}
+footer { padding: 40px 0 60px 0;}
+.thankMsg{ padding-top:0; text-align:center;}
+.thankMsg p{ margin-top:20px;}
+.connectedWrap .connectedRight .map iframe{ margin-top:20px; height:300px;}
+.highlightsWrap .highlightsInner{ width:auto;}
+.sitathomeWrap .sitathomeInner ul {  grid-template-columns: 32% 32% 32%;}
+.sitathomeWrap .sitathomeInner ul li{ margin-bottom:20px;}
+.sitathomeWrap .sitathomeInner{ width:auto;}
+.amenitiesWrap .amenitiesInner{ width:auto;}
+.amenitiesWrap .amenitiesInner .amenitiesGroup { width: 86%;}
+.footerWrap .footerBox.footerBoxFirst:after{ display:none;}
+.footerWrap .footerBox{ padding:0;}
+.copyRight.mobilecopyRight{ display:block; text-align:center;}
+.copyRight.desktopcopyRight{ display:none;}
+.footerWrap .footerBox.footerBoxLast{ position:fixed; bottom:0; left:0; margin:0; width:100%; z-index:99;}
+.enquirenow{ width:100%;}
+.highlightsWrap .highlightsInner .highlightsBox { margin-right: 40px;}
+}
+ @media only screen and (max-width: 800px) {
+}
+ @media only screen and (max-width: 768px) {
+}
+ @media only screen and (max-width: 753px) {
+  .greatInvestmentWrap .greatInvestmentRight { width: auto;}
+  .greatInvestmentWrap .greatInvestmentInner:after{ display:none;}
+}
+ @media only screen and (max-width: 736px) {
+ .aboutachlareWrap .aboutachlareInner ul { display: block;  grid-template-columns: none;}
+ .aboutachlareWrap .aboutachlareInner ul li .num { font-size: 38px; line-height: 40px;}
+ footer { padding: 30px 0 60px 0;}
+}
+ @media only screen and (max-width: 711px) {
+}
+ @media only screen and (max-width: 640px) {
+ h2{ margin-bottom:20px;}
+.pointsWrap .pointsInner { padding:50px 30px;}
+.pointsWrap .pointsList ul li{ font-size:20px;background: url(../images/bullet.png)no-repeat left top 6px;} 
+.pointsWrap .pointsList ul li br{ display:none;}
+.pointsWrap .pointsList { width: auto; float: none;}
+.aboutachlareWrap .aboutachlareInner ul li { width: auto; float: none; margin: 0 0 30px 0; text-align:center;}
+.aboutachlareWrap .aboutachlareInner ul li .text br{ display:none;} 
+.recognitionWrap .recognitionBox .recognitionBoxinner { min-height: 250px;}
+.recognitionWrap .slick-arrow{ display:none !important;}
+.recognitionWrap .recognitionInner { width: 94%; margin: 0 auto; float: right;}
+.bankWrap .bankInner ul li {  margin: 0px 1%; width:31%; float:left;}
+.bankWrap .bankInner ul li img{ width:100%;}
+.bannerWrap .formWrap{ position:fixed; bottom:-100%; left:0; z-index:999; width:100%;transition: 0.5s;}
+.bannerWrap .formWrap.active{ bottom:0;transition: 0.5s;}
+.close{ display:block;}
+.enqFixed{ display:block;}
+.enqnow{}
+.enqnow a{ display:block; padding:15px 0; text-align:center; background:#000000; color:#ffffff; text-transform:uppercase; font-size:18px; line-height:22px;}
+.callnow{ display:none;} 
+.bannerWrap .formWrap.thankYou{position: relative; bottom: auto; top: auto;}
+.amenitiesWrap .amenitiesInner .amenitiesGroup { margin: 0 auto;}
+.amenitiesWrap .amenitiesInner .amenitiesGroup .amenitiesBox{ width:auto; float:none;}
+.amenitiesWrap .amenitiesInner .amenitiesGroup .amenitiesBox .amenitiesBoxinner {  min-height: 10px;}
+.amenitiesWrap .amenitiesInner .amenitiesGroup .amenitiesBox .amenitiesBoxinner h3{ margin-bottom:10px;}
+.highlightsWrap .highlightsInner .highlightsBox { margin-right: 0;}
+.highlightsWrap .highlightsInner .highlightsBox:after { background: url(../images/highlightsinnerBg.jpg) repeat;}
+.sitathomeWrap .sitathomeInner ul { grid-template-columns: none; display: block;}
+.sitathomeWrap .sitathomeInner ul li p br{ display:none;}
+.booksitevisit a { text-align:center;}
+.connectedWrap .connectedRight .connectedTable { width: auto; margin: 20px 0 0 0; float: none;}
+.connectedWrap .connectedRight .connectedTable table tr td { line-height: 20px;}
+.connectedWrap .connectedRight .connectedRightinner { padding: 40px;}
+.sitathomeWrap .sitathomeInner {  text-align: center;}
+.aboutachlareWrap .aboutachlareInner {  text-align: center;}
+.sitathomeWrap .sitathomeInner ul li .num {  margin: 0 auto;}
+}
+ @media only screen and (max-width: 600px) {
+}
+ @media only screen and (max-width: 569px) {
+}
+ @media only screen and (max-width: 568px) {
+}
+ @media only screen and (max-width: 533px) {
+ .greatInvestmentWrap .greatInvestmentLeft h2 br{ display:none}
+ h2{ font-size:32px; line-height:36px;}
+ .connectedWrap .connectedRight table { width: 100%; float: none;}
+  .connectedWrap .connectedRight table tr td:first-child{ width:80%;}
+    .connectedWrap .connectedRight table tr td:last-child{ text-align:right;}
+ .connectedWrap .connectedRight table.lastTable { margin-left: 0;}
+ .bankWrap .bankInner ul li {  margin: 0px 10px; width:auto; float:none; margin-bottom:20px;}
+.bankWrap .bankInner ul li img{ width:auto;}
+.bankWrap .bankInner h3{ line-height:28px;}
+}
+ @media only screen and (max-width: 480px) {
+}
+ @media only screen and (max-width: 424px) {
+ header{ display:none;}
+ .reraWrap { position: absolute; right: auto; top: auto; left:20px; bottom: 20px;}
+ .bannerWrap .formWrap .formInner { padding: 60px 40px 30px 40px;}
+ .greatInvestmentWrap .greatInvestmentInner { padding: 40px 25px;}
+ .greatInvestmentWrap .greatInvestmentRight ul li .greatInvestmentList { padding-left: 45px;}
+ .pointsWrap .pointsList ul li { font-size: 18px; line-height:24px;}
+ .recognitionWrap .recognitionBox .recognitionBoxinner { min-height: 320px;} 
+ .pointsWrap .pointsInner { padding: 40px 25px;}
+ .pointsWrap { padding: 40px 0 40px 0;}
+ .aboutachlareWrap, .recognitionWrap { padding: 40px 0;}
+ .greatInvestmentWrap { padding-bottom: 40px;}
+ .aboutWrap .aboutInner .aboutLeft{ margin-bottom:30px;}
+ .bannerWrap .banner img.desktopBanner{display:none;}
+.bannerWrap .banner img.mobileBanner{ display:block;}
+.bookappointmentForm{ width:100%;right:-100%;} 
+.bookappointmentForm .bookappointmentformInner { padding: 60px 30px;}
+     
+}
+ @media only screen and (max-width: 414px) {
+}
+@media only screen and (max-width: 412px) {
+}
+ @media only screen and (max-width: 400px) {
+}
+ @media only screen and (max-width: 384px) {
+}
+ @media only screen and (max-width: 375px) {
+}
+ @media only screen and (max-width: 360px) {
+ .bannerWrap .formWrap .formInner { padding: 50px 30px;}
+ .connectedWrap .connectedRight table tr td:first-child { width: auto;}
+}
+ @media only screen and (max-width: 320px) {
+}
